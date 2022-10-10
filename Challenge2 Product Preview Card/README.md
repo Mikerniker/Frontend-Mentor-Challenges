@@ -55,9 +55,10 @@ Concepts I reviewed
   - create a row
   - center items using flexbox, I mainly used: display: flex; justify-content: center; align-items: center; 
 - Letter-spacing: 3px
+- I learned how to change the cursor to a hand pointer by using {cursor: pointer;}
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Focus States resource 1](https://developer.mozilla.org/en-US/docs/Web/CSS/:focus#:~:text=The%20%3Afocus%20CSS%20pseudo%2Dclass,with%20the%20keyboard's%20Tab%20key.) - This helped me understand what focus states are.
 - [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
