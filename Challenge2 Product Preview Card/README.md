@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [My solution](https://github.com/Mikerniker/Frontend-Mentor-Challenges/tree/main/Challenge2%20Product%20Preview%20Card)
-- Live Site URL: [My live site URL here](https://your-live-site-url.com)
+- Solution URL: [My Solution](https://github.com/Mikerniker/Frontend-Mentor-Challenges/tree/main/Challenge2%20Product%20Preview%20Card)
+- Live Site URL: [My Live Site](https://fementorproductperfumecomponent.netlify.app)
 
 ## My process
 
