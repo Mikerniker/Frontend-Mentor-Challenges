@@ -12,7 +12,7 @@ This is a solution to the [Product Preview Card Component Challenge on Frontend 
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Useful resources](#useful-resources)
-- [Author](#author)
+
 
 ## Overview
 
@@ -56,6 +56,9 @@ Concepts I reviewed
 - I learned how to change the cursor to a hand pointer by using {cursor: pointer;}
 - Focus states
 - Media queries (something I still get confused about but am working on)
+
+### Continued Development
+I had a hard time figuring out the margins for flex box. I am still learning flex box so I imagine that a lot of things I did could be improved. I also tried implementing some semantic HTML but I'm not entirely sure if I did it correctly. I was able to do the hover state requirement, but I didn't understand where to implement focus states (in the instructions). I read up on it but I didn't understand where I was supposed to apply it in the card. The instructions also asked to "view optimal layout on different screen sizes", which I guessed it meant to use media queries. Media queries are still confusing for me, so I am still working on improving my understanding of this concept.
 
 ### Useful resources
 
