@@ -8,6 +8,7 @@ body {
 }
 
 h1 {
+    color:  #1c232b;
     font-family: 'Fraunces', serif;
     font-weight: 700;
     line-height: 1;
@@ -22,38 +23,7 @@ p {
     color: #6c7289;
 }
 
-#perfume-text {
-    margin-top: 0;
-    letter-spacing: 0.25rem;   
-    font-size: 12px;
-}
-
-.original-price {
-   text-decoration: line-through;
-   padding-left: 1rem;
-}
-
-.discount {
-    color: #3c8067;
-}
-
-button {
-    background-color: #3c8067;
-    border: none;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;    
-    font-family: 'Montserrat', sans-serif;
-    width: 80%;   
-}
-
-.cart-text {
-    color: white;
-    font-weight: 700;
-    margin-right: 1rem;
-}
+/* Main Card */
 
 .card {
     background-color: white;
@@ -63,20 +33,10 @@ button {
     width: 45%; 
 }
 
-.container {
-    margin: 2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-}
 
-.content {
-    width: 80%
-}
+/* Left Side of Card */
 
-/* Images */
-.product-image {
+.product-image-section {
     width: 100%
 }
 
@@ -86,15 +46,73 @@ button {
     height: 100%;
 }
 
+
+/* Right Side of Card */
+
+.container {
+    margin: 2rem 0.5rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.product-description {
+    width: 80%
+}
+
+#perfume-text {
+    margin-top: 0;
+    letter-spacing: 0.25rem;   
+    font-size: 12px;
+}
+
+.product-prices {
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+    margin-bottom: 0.5rem;
+}
+
+.discounted-price {
+    color: #3c8067;
+}
+
+.original-price {
+   text-decoration: line-through;
+   padding-left: 1rem;
+}
+
+/* Button Section */
+
+button {
+    align-items: center;
+    background-color: #3c8067;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: center;  
+    width: 90%; 
+}
+
+button:hover {
+    background-color: #0fce88;
+}
+
 .cart-img {
     padding: 1rem;
 }
 
-.prices {
-    display: flex;
-    flex-direction: row;
-    align-items: center;    
+.cart-text {
+    color: white;
+    font-weight: 700;
+    margin-right: 1rem;  
 }
+
+/* Footer Section */
 
 .attribution {
     font-size: 11px; 
