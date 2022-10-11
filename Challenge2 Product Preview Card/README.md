@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [My solution](https://github.com/Mikerniker/Frontend-Mentor-Challenges/tree/main/Challenge2%20Product%20Preview%20Card)
+- Live Site URL: [My live site URL here](https://your-live-site-url.com)
 
 ## My process
 
@@ -54,9 +54,10 @@ Concepts I reviewed
   - center items using flexbox, I mainly used: display: flex; justify-content: center; align-items: center; 
 - Letter-spacing: 3px
 - I learned how to change the cursor to a hand pointer by using {cursor: pointer;}
+- Focus states
+- Media queries (something I still get confused about but am working on)
 
 ### Useful resources
 
 - [Focus States resource 1](https://developer.mozilla.org/en-US/docs/Web/CSS/:focus#:~:text=The%20%3Afocus%20CSS%20pseudo%2Dclass,with%20the%20keyboard's%20Tab%20key.) - This helped me understand what focus states are.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
