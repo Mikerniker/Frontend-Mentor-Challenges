@@ -1,0 +1,67 @@
+body {
+    align-items: center; 
+    background-color: hsl(217, 54%, 11%);
+    color: hsl(215, 51%, 70%);
+    display: flex; 
+    font-family: 'Outfit', sans-serif;;
+    flex-direction: column; 
+    justify-content: center; 
+    margin: 0;
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+
+}
+
+.ethereum-text {
+    color: hsl(178, 100%, 50%);
+
+}
+
+#container { 
+    background-color: hsl(216, 50%, 16%); 
+    border-radius: 15px;
+    margin-top: 2rem;
+    max-width: 30%;
+}
+
+.card {
+    margin: 2rem;
+    
+}
+
+.cube-image {
+    border-radius: 15px;
+    width: 100%;
+}
+
+.ethereum-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; 
+}
+
+.profile-image {
+    width: 15%;
+}
+
+.author {
+    margin: auto;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+    
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
