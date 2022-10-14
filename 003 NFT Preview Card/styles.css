@@ -9,26 +9,31 @@ body {
     margin: 0;
 }
 
-h1 {
+h3 {
     color: hsl(0, 0%, 100%);
-
 }
 
-.ethereum-text {
+p {
+    font-size: 16px;
+}
+
+.ethereum-text1 {
     color: hsl(178, 100%, 50%);
-
+    margin: 0 0 0 -12px;
 }
 
+.clock-img {
+    margin: 12px -6px 0 0;
+}
 #container { 
     background-color: hsl(216, 50%, 16%); 
     border-radius: 15px;
-    margin-top: 2rem;
-    max-width: 30%;
+    margin: 2rem 0 2rem 0;
+    max-width: 25%;
 }
 
 .card {
     margin: 2rem;
-    
 }
 
 .cube-image {
@@ -43,25 +48,59 @@ h1 {
     align-items: center;
 }
 
-.card-footer {
+.etherium-amt {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: left;
+}
+
+.etherium-time {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start; 
+    align-items: center;
+    justify-content: right;
+}
+
+object {
+    margin-top: 1rem;
+}
+
+hr {
+    border: 0.5px solid hsl(215, 32%, 27%);
+    margin-bottom: 1rem;
+}
+
+.card-footer {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: left;
 }
 
 .profile-image {
-    width: 15%;
+    border:1px solid white;
+    border-radius: 50%;   
+    width: 10%;
 }
 
 .author {
-    margin: auto;
+    margin-left: 1rem;
 }
+
+span {
+    color: white;
+}
+
+footer {
+    margin-bottom: 1rem;
+}
+
 .attribution { 
     font-size: 11px; 
     text-align: center; 
 }
     
-
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
