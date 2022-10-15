@@ -7,7 +7,7 @@ Concepts used: Semantic HTML, CSS Flexbox
 
 1. Challenge 1: QR Code Component 
   - [Live Site](https://63408701434e17007046575e--qrcodefrontendmentorpractice.netlify.app/)
-  - [Github Code](https://github.com/Mikerniker/Frontend-Mentor-Challenges/tree/main/Challenge1%20QR%20Code%20Component)
+  - [Github Code](https://github.com/Mikerniker/Frontend-Mentor-Challenges/tree/main/001%20QR%20Code%20Component)
 2. Challenge 2: Product Preview Card
   - [Live Site](https://fementorproductperfumecomponent.netlify.app/)
-  - [Github Code](https://github.com/Mikerniker/Frontend-Mentor-Challenges/tree/main/Challenge2%20Product%20Preview%20Card)
+  - [Github Code](https://github.com/Mikerniker/Frontend-Mentor-Challenges/tree/main/002%20Product%20Preview%20Card)
