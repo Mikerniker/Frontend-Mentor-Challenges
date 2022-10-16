@@ -49,18 +49,26 @@ Users should be able to:
 
 ### What I learned
 
+- I had to review how to add an SVG as an  HTML <object> element and use width and height to specify the size of the SVG image.
+  - Example: <object data="./images/icon-ethereum.svg" width="30" height="30"> </object>
 
+- Learned How to add Image Overlay on Hover:
+  - This was a useful resource that showed me how to do it: https://www.w3schools.com/HOWTO/howto_css_image_overlay_title.asp
+  - I'm not fully confident in using it, also I'm not clear on how to center the svg eye.
+
+- Reviewed the difference between rgb vs hsl
+  
+- How to make an image see through on hover
 
 ### Continued development
 
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me-.
+- [Image Overlay on Hover]( https://www.w3schools.com/HOWTO/howto_css_image_overlay_title.asp) - This resource helped me learn how to add Image Overlay on Hover.
 - [Example resource 2](https://www.example.com) - This is -.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Mik](https://mikerniker.github.io/Project_Website/)
+- Frontend Mentor - [@Mikerniker](https://www.frontendmentor.io/profile/Mikerniker)
