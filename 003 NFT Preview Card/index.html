@@ -9,25 +9,29 @@
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
 
   <title>Frontend Mentor | NFT preview card component</title>
 
-
 </head>
+
 <body>
    <!-- Main card container -->
   <main id="container">
-    <!-- Card class for the card  -->
+    <!-- Card class for the NFT card  -->
     <div class="card">
-      <img class="cube-image" src="./images/image-equilibrium.jpg" alt="Cube balanced on one corner">
+      <div class="equilibrium-container">
+          <img class="cube-image" src="./images/image-equilibrium.jpg" alt="Cube balanced on one corner">
+          <div class="overlay"> <object data="./images/icon-view.svg"> </object></div>
+      </div>
       <!-- Details of the NFT card  -->
-      <div class="card__details">
+      <div class="card_details">
         <div>
-          <h3>Equilibrium #3429</h3>
+          <h3 class="equilibrium-title">Equilibrium #3429</h3>
           <p>Our Equilibrium collection promotes balance and calm.</p>
         </div>
+        <!-- Ethereum Section  -->
         <div class="ethereum-section">
           <div class="etherium-amt">
             <object data="./images/icon-ethereum.svg" width="30" height="30"> </object>
@@ -39,14 +43,17 @@
           </div>
         </div>
         <hr>
+        <!-- Card Footer  -->
         <div class="card-footer">
           <img class="profile-image" src="./images/image-avatar.png" alt="profile image of creator">
-          <p class="author">Creation of <span>Jules Wyvern</span></p>
+          <p class="profile-text">Creation of <span>Jules Wyvern</span></p>
         </div>
       </div>
     </div>
   </main>
+  <object class="eye-img" data="./images/icon-view.svg" width="48" height="48"> </object>
 
+  <!-- Footer  -->
   <footer>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
