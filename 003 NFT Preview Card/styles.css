@@ -17,14 +17,9 @@ p {
     font-size: 16px;
 }
 
-.ethereum-text1 {
-    color: hsl(178, 100%, 50%);
-    margin: 0 0 0 -12px;
-}
 
-.clock-img {
-    margin: 12px -6px 0 0;
-}
+/* Main card container */
+
 #container { 
     background-color: hsl(216, 50%, 16%); 
     border-radius: 15px;
@@ -32,14 +27,56 @@ p {
     max-width: 25%;
 }
 
+/* Card class for the NFT card  */
+
 .card {
     margin: 2rem;
 }
 
 .cube-image {
-    border-radius: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.equilibrium-container {
+    position: relative;
     width: 100%;
 }
+
+.overlay {
+    cursor: pointer;
+    position: absolute; 
+    bottom: 0; 
+    background: hsl(178, 100%, 50%);
+    background: rgba(0, 255, 247, 0.3); 
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+    opacity:0;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 100px; 
+}
+
+.equilibrium-container:hover .overlay {
+    opacity: 1;
+  }
+
+
+/*  Details of the NFT card */
+
+.equilibrium-title {
+    cursor: pointer;
+}
+
+.equilibrium-title:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+/*  Ethereum Section */
 
 .ethereum-section {
     display: flex;
@@ -53,6 +90,15 @@ p {
     flex-wrap: wrap;
     align-items: center;
     justify-content: left;
+}
+
+.ethereum-text1 {
+    color: hsl(178, 100%, 50%);
+    margin: 0 0 0 -12px;
+}
+
+.clock-img {
+    margin: 12px -6px 0 0;
 }
 
 .etherium-time {
@@ -71,6 +117,8 @@ hr {
     margin-bottom: 1rem;
 }
 
+/* Card Footer */
+
 .card-footer {
     display: inline-flex;
     flex-wrap: wrap;
@@ -84,13 +132,21 @@ hr {
     width: 10%;
 }
 
-.author {
-    margin-left: 1rem;
+.profile-text {
+    margin: 0 0 0 1rem; 
 }
 
 span {
     color: white;
+    cursor: pointer;
 }
+
+span:hover {
+    color: hsl(178, 100%, 50%)
+}
+
+
+/* Footer */
 
 footer {
     margin-bottom: 1rem;
