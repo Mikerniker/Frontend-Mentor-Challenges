@@ -24,18 +24,20 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 Users should be able to:
 
-- View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./NonActive.PNG)
+
+- Active State:
+![](./Active State.PNG)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github Solution](https://github.com/Mikerniker/Frontend-Mentor-Challenges/tree/main/003%20NFT%20Preview%20Card)
+- Live Site URL: [Live Site](https://fementor-nft-preview-card.netlify.app/)
 
 ## My process
 
@@ -54,19 +56,21 @@ Users should be able to:
 
 - Learned How to add Image Overlay on Hover:
   - This was a useful resource that showed me how to do it: https://www.w3schools.com/HOWTO/howto_css_image_overlay_title.asp
-  - I'm not fully confident in using it, also I'm not clear on how to center the svg eye.
+  - I'm not fully confident in using it, also I'm not clear on how to center the svg eye as an <object> element but I changed it to an <image> element and centered it by using margin.
 
 - Reviewed the difference between rgb vs hsl
   
-- How to make an image see through on hover
+- How to make an image see-through on hover
 
 ### Continued development
+
+- For the eye overlay, I couldn't figure out how to align the svg in <object>, so I changed it to an <image> element and aligned it in the center by using margin-top.
+- I still need to make it responsive for smaller devices. 
 
 
 ### Useful resources
 
 - [Image Overlay on Hover]( https://www.w3schools.com/HOWTO/howto_css_image_overlay_title.asp) - This resource helped me learn how to add Image Overlay on Hover.
-- [Example resource 2](https://www.example.com) - This is -.
 
 ## Author
 
