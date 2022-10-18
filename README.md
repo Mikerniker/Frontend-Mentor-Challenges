@@ -11,3 +11,6 @@ Concepts used: Semantic HTML, CSS Flexbox
 2. Challenge 2: Product Preview Card
   - [Live Site](https://fementorproductperfumecomponent.netlify.app/)
   - [Github Code](https://github.com/Mikerniker/Frontend-Mentor-Challenges/tree/main/002%20Product%20Preview%20Card)
+3. Challenge 3: NFT Preview Card
+  - [Live Site](https://fementor-nft-preview-card.netlify.app/)
+  - [Github Code](https://github.com/Mikerniker/Frontend-Mentor-Challenges/tree/main/003%20NFT%20Preview%20Card)
