@@ -1,8 +1,6 @@
-# STILL IN PROGRESS
+# Frontend Mentor - Order Summary Card Solution
 
-# Frontend Mentor - Order summary card solution
-
-This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). 
+This is my solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). 
 
 ## Table of contents
 
@@ -27,12 +25,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./order_summary.PNG)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [My Github Solution](https://your-solution-url.com)
+- Live Site URL: [Live Site URL](https://your-live-site-url.com)
 
 ## My process
 
@@ -41,21 +39,26 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 
 ### What I learned
 
 - Had to figure out how to get the svg to fit the container, I used: `{ width: 100%; height: auto; }` to fit the div.
+- Adding a shadow to the button by using box-shadow.
+- Reviewed how to remove anchor tag underline by using `{text-decoration: none; }`
+
 
 ### Continued development
+- I'm not sure if I implemented the box-shadow correctly, as well as the colors for the hover states, since I don't have access to the design follow, these were just estimated.
 
 
 ### Useful resources
 
 - [Resource to Scale SVG](https://css-tricks.com/scale-svg/) - This helped me adjust the size of the svg to fit the div. Adding it here for future reference.
+- [Box-shadow](https://www.w3schools.com/cssref/css3_pr_box-shadow.asp)
+- [Remove Underline from Anchor Tag](https://www.geeksforgeeks.org/how-to-remove-underline-for-anchors-tag-using-css/#:~:text=The%20underline%20can%20be%20easily,the%20underline%20from%20anchor%20tag.)
 
 
 ## Author
 
-- Website - [Mik]([https://www.your-site.com](https://mikerniker.github.io/Project_Website/))
-- Frontend Mentor - [@yMikerniker]([https://www.frontendmentor.io/profile/yourusername](https://www.frontendmentor.io/profile/Mikerniker))
+- Website - [Mik](https://mikerniker.github.io/Project_Website/)
+- Frontend Mentor - [@Mikerniker](https://www.frontendmentor.io/profile/Mikerniker)
