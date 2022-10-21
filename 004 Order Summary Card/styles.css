@@ -1,0 +1,158 @@
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column; 
+    background-image: url( './images/pattern-background-desktop.svg');
+    background-repeat: no-repeat; 
+    background-color: hsl(225, 100%, 94%);
+}
+
+/* Fonts */
+h1, h4 {
+    color: hsl(223, 47%, 23%);
+}
+
+h1 {
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+p {
+    font-weight: 400;
+    color: hsl(224, 23%, 55%);
+}
+
+/* Main card container */
+
+.container { 
+    background-color: white;
+    border-radius: 15px;
+    max-width: 30%;
+    margin: 1rem 0 1rem 0;
+}
+
+/* Card class for the Order card */
+
+.hero-image {
+    width: 100%;
+    height: auto; 
+    border-radius: 15px 15px 0 0;
+}
+
+/* Order Description Section */
+
+.order-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+}
+
+.order-description {
+    width: 80%;
+    text-align: center;
+}
+
+/* Payment Plan Section */
+
+.annual-plan-section {
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 15px;
+    width: 80%;
+}
+
+.annual-price {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.music-image {
+    margin: 1rem 0 1rem 1rem;
+}
+
+.annual-plan-section-text {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;     
+}
+
+.annual-text1 {
+    font-weight: 900;
+    margin: 1rem 1rem 0 1rem;
+} 
+
+.annual-text2 {
+    margin-top: 0;
+}
+
+.annual-text3 {
+    margin: 1rem 1.5rem 1rem 1rem;
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.annual-text3:hover {
+    color: hsl(263, 97%, 59%);
+}
+
+.change-anchor:hover {
+    text-decoration: none;
+}
+
+
+/* Payment Button and Cancel Section */
+
+button {
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 1rem;
+    padding: 3px 32px;
+    text-align: center;
+    width: 80%;
+    font-family: 'Red Hat Display', sans-serif;
+    box-shadow:  5px 10px 30px hsl(225, 82%, 82%);
+ }
+ 
+ button:hover {
+     background-color: hsl(263, 97%, 59%);
+ }
+ 
+
+.payment-button {
+    font-weight: 700;
+    color: white;
+}
+
+.cancel-anchor {
+    text-decoration: none;
+}
+
+.cancel-text{
+    font-size: smaller;
+    font-weight: 900;
+    margin: 1.5rem 0 2rem 0;
+}
+
+.cancel-text:hover {
+    color: hsl(223, 47%, 23%);
+}
+
+
+/* Footer Section */
+
+  .attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }
