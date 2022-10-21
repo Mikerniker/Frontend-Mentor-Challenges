@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [My Github Solution](https://your-solution-url.com)
-- Live Site URL: [Live Site URL](https://your-live-site-url.com)
+- Solution URL: [My Github Solution](https://github.com/Mikerniker/Frontend-Mentor-Challenges/tree/main/004%20Order%20Summary%20Card)
+- Live Site URL: [Live Site URL](https://fementor-order-summary-card.netlify.app/)
 
 ## My process
 
