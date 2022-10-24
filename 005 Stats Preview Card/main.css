@@ -12,6 +12,7 @@ body {
     min-height: 100vh;
 }
 
+/* Fonts */
 h1 {
     color: hsl(0, 0%, 100%);
     font-weight: 700;
@@ -21,10 +22,13 @@ span {
     color: hsl(277, 64%, 61%);
 }
 
+/* Main Card Container */
 .container {
     max-width: 70%;
+    margin: 1rem 0 4rem 0;
 }
 
+/* Card Description Section */
 .card { 
     background-color: hsl(244, 38%, 16%);
     border-radius: 10px;
@@ -35,8 +39,7 @@ span {
 }
 
 .card-description {
-    max-width: 50%;
-    
+    max-width: 50%; 
 }
 
 .card-text {
@@ -50,15 +53,16 @@ span {
 
 .description {
     font-size: small;
+    line-height: 1.6;
     margin: 0 2rem 2rem 0;
 }
 
+/* Statistics Section */
 .statistics {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     width: 100%; 
-
 }
 
 .stat-pairs {
@@ -70,7 +74,8 @@ span {
     margin-bottom: 0;
     font-size: larger;
 }
-.stats {
+
+.stats-text {
     color: hsla(0, 0%, 100%, 0.6);
     font-family: 'Lexend Deca', sans-serif;
     font-weight: 400;
@@ -78,12 +83,14 @@ span {
     margin-top: 0.5rem;
 }
 
+/* Right Side Card Image */
+
 .card-image {
-    max-width: 50%;
-    position: relative; 
+    position: relative;   
 }
 
 .card-image:before {
+    border-radius: 0 10px 10px 0;
     content: "";
     display: block;
     position: absolute;
@@ -98,19 +105,47 @@ span {
     width: 100%;
     height: auto; 
     border-radius: 0 10px 10px 0;
+    bottom: 0;
 }
-/*
-.hero-image:before {
-    background: rgba(170, 92, 219);
-    width: 100%;
-    opacity: 0.5;    
-} */
+
 
 /* Footer */
+
 .attribution { 
-    font-size: 11px; text-align: center; 
+    font-size: 11px; 
+    text-align: center; 
 }
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+
+
+@media screen and (max-width: 992px) {
+
+    .container {
+        max-width: 100%;
+    }
+    .card { 
+        flex-direction: column-reverse;
+    }
+
+    .card-description {
+        max-width: 90%; 
+        
+    }
+
+    .statistics {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .stat-pairs {
+        margin-left: 0;
+    }
+
+    .hero-image {
+        border-radius: 10px 10px 0 0;
+        
+    }
+  }
