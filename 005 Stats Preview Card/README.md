@@ -65,6 +65,8 @@ Users should be able to:
     background: rgba(170, 92, 219, 0.5);
 }
 ```
+- Reviewed css line-height property to adjust the height of the paragraph.
+- Tried working on media queries, but I still find it confusing.
 
 ### Continued development
 
