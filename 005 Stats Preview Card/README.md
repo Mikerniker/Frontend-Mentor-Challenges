@@ -67,6 +67,12 @@ Users should be able to:
 ```
 - Reviewed css line-height property to adjust the height of the paragraph.
 - Tried working on media queries, but I still find it confusing.
+- Tried an overcomplicated color for the image but foudn this simpler:
+mix-blend-mode: multiply;  to review
+https://www.w3schools.com/cssref/pr_mix-blend-mode.php
+- #the image did not fit the div initially so I had to adda 
+vertical-align: top;
+
 
 ### Continued development
 
