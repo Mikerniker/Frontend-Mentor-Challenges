@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github URL](https://github.com/Mikerniker/Frontend-Mentor-Challenges/tree/main/005%20Stats%20Preview%20Card)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live Site](https://fementor-stats-preview-card-component.netlify.app/)
 
 ## My process
 
