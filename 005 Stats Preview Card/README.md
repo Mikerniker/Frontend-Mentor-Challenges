@@ -1,5 +1,3 @@
-# STILL IN PROGRESS 
-
 # Frontend Mentor - Stats preview card component solution
 
 This is my solution to the [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62).  
@@ -31,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Github URL](https://github.com/Mikerniker/Frontend-Mentor-Challenges/tree/main/005%20Stats%20Preview%20Card)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
@@ -42,7 +40,6 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
-
 
 ### What I learned
 
@@ -90,8 +87,8 @@ Users should be able to:
 
 ### Useful resources
 
-- [Image Tint with CSS](https://www.impressivewebs.com/image-tint-blend-css/) - This helped me figure out how to add the purple tint to the image.
-- [Mix-Blend-Mode](https://www.w3schools.com/cssref/pr_mix-blend-mode.php)
+- [Image Tint with CSS](https://www.impressivewebs.com/image-tint-blend-css/) - This was the initial source that I used to add purple tint to the image.
+- [Mix-Blend-Mode](https://www.w3schools.com/cssref/pr_mix-blend-mode.php) - This was the final option I used to help me add purple tint to the image.
 
 
 ## Author
