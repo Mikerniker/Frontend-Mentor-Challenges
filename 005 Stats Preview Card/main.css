@@ -35,14 +35,13 @@ span {
     margin: 0 2rem 0 2rem;
     display: flex;
     align-items: center;
-    justify-content: center;
-  
+    justify-content: center; 
 }
-
 
 .card-text {
     width: 80%;
     margin-left: 4rem;
+
 }
 
 .description {
@@ -81,21 +80,11 @@ span {
 
 .card-image {
     position: relative;   
-    width: 100%;
+    width: 90%;
     height: auto; 
-}
-
-.card-image:before {
+    background-color: rgba(170, 92, 219, 0.5);  
     border-radius: 0 10px 10px 0;
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(170, 92, 219, 0.5);
-} 
+}
 
 .hero-image {  
     width: 100%;
@@ -103,7 +92,7 @@ span {
     border-radius: 0 10px 10px 0;
     bottom: 0;
     vertical-align: top;
-    
+    mix-blend-mode: soft-light;
 }
 
 
@@ -121,22 +110,33 @@ span {
 
 
 @media screen and (max-width: 992px) {
-
+    /* Main Card Container */
     .container {
         max-width: 100%;
     }
+
+    /* Card Description Section */
     .card { 
         flex-direction: column-reverse;
+    }
+
+    .card-text {
+        margin: 1rem 1rem 2rem 3rem;
+        text-align:center;
+        width: 80%;
     }
 
     .card-description {
         max-width: 100vw; 
     }
 
- 
+    .description {
+        margin: 1rem 4rem;       
+    }
 
+    /* Statistics Section */
     .statistics {
-        flex-direction: column;
+        display: block;   
     }
 
     .stat-pairs1 {
@@ -148,11 +148,14 @@ span {
         font-size: 5vw;
     }
 
-    .hero-image {
+    /* Right Side Card Image */
+
+    .card-image {
+        width: 100%;
         border-radius: 10px 10px 0 0;
     }
-
-    .card-image:before {
+   
+    .hero-image {
         border-radius: 10px 10px 0 0;
     }
   }

@@ -13,7 +13,6 @@ This is my solution to the [Stats preview card component challenge on Frontend M
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
@@ -27,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshotfementor.PNG)
 
 
 ### Links
@@ -47,7 +46,11 @@ Users should be able to:
 
 ### What I learned
 
-- How to add color tint, I used this code:
+- Reviewed css line-height property to adjust the height of the paragraph.
+- Tried working on media queries, but I still find it confusing but was able to workout the responsiveness for smaller screens.
+- The image did not fit the div initially so I had to add `vertical-align: top;`
+- Tried an overcomplicated color code for the purple image overlay but found a simpler option:
+- Mental Note: I originally used this code:
 ```
 .card-image {
     max-width: 50%;
@@ -65,23 +68,30 @@ Users should be able to:
     background: rgba(170, 92, 219, 0.5);
 }
 ```
-- Reviewed css line-height property to adjust the height of the paragraph.
-- Tried working on media queries, but I still find it confusing.
-- Tried an overcomplicated color for the image but foudn this simpler:
-mix-blend-mode: multiply;  to review
-https://www.w3schools.com/cssref/pr_mix-blend-mode.php
-- #the image did not fit the div initially so I had to adda 
-vertical-align: top;
+- I changed it to:
+```
+.card-image {
+    position: relative;   
+    width: 90%;
+    height: auto; 
+    background-color: rgba(170, 92, 219, 0.5);  /*added*/
+}
 
-
-### Continued development
-
-
+.hero-image {  
+    width: 100%;
+    height: 100%; 
+    border-radius: 0 10px 10px 0;
+    bottom: 0;
+    vertical-align: top;
+    mix-blend-mode: soft-light; /*added*/
+}
+```
+- Learned about mix-blend-mode to add color to an image.
 
 ### Useful resources
 
 - [Image Tint with CSS](https://www.impressivewebs.com/image-tint-blend-css/) - This helped me figure out how to add the purple tint to the image.
-- [Example resource 2](https://www.example.com) - ....
+- [Mix-Blend-Mode](https://www.w3schools.com/cssref/pr_mix-blend-mode.php)
 
 
 ## Author
