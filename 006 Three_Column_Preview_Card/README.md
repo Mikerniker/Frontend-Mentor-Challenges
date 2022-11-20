@@ -1,5 +1,3 @@
-#STILL IN PROGRESS
-
 # Frontend Mentor - 3-column preview card component solution
 
 This is my solution to the [3-column preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-). 
@@ -13,8 +11,6 @@ This is my solution to the [3-column preview card component challenge on Fronten
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 ## Overview
@@ -28,13 +24,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot.PNG)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github Code](https://github.com/Mikerniker/Frontend-Mentor-Challenges/tree/main/006%20Three_Column_Preview_Card)
+- Live Site URL: [Live Site](https://fementor3column-preview-card.netlify.app/)
 
 ## My process
 
@@ -43,21 +39,10 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 
 
 ### What I learned
-
-
-
-### Continued development
-
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me...
-- [Example resource 2](https://www.example.com) - This is ...
-
+- reviewed media queries
 
 ## Author
 
