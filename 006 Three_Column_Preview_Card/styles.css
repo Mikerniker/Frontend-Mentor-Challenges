@@ -22,13 +22,16 @@ p {
     width: 70%;
     font-weight: 400;
     font-size: smaller;
+    line-height: 2;
 }
 
+/* Main card container */
 .container {
     max-width: 60vw;
     border-radius: 15px;
 }
 
+/*  Cars Description Section */
 .card {    
     display: flex;
     align-items: center;
@@ -37,14 +40,18 @@ p {
 }
 
 .cars {
-    height: 80vh;
+    height: 75vh;
     display: flex;
     align-items: flex-start;
     justify-content: center; 
     flex-direction: column;
+    
 }
 
-img, h1, p, button {
+img {margin: 6rem 2rem 1rem 2rem;} 
+
+
+h1, p {
     margin: 1rem 2rem 1rem 2rem;
 }
 
@@ -62,6 +69,7 @@ img, h1, p, button {
     border-radius: 0 15px 15px 0;
 }
 
+/*  Buttons for Car Section*/
 button {
     background-color: hsl(0, 0%, 95%);
     border: none;
@@ -71,6 +79,7 @@ button {
     justify-content: center;  
     width: 50%; 
     padding: 1rem;
+    margin: 3rem 2rem 6rem 2rem; 
 }
 
 .sedan-btn {
@@ -97,23 +106,37 @@ button {
     color: hsl(228, 45%, 44%);
 }
 
+/* Media Queries */
 @media screen and (max-width: 992px) {
-    .card {  
-        flex-direction: column;
-    }
 
+    /* Main card container */
     .container {
         max-width: 100vw;
     }
 
-    .cars {
-        height: 150vh;
+    /* Cars Description Section */
+     .card {  
+        flex-direction: column;
     }
+
+    .cars {
+        height: 100vh;
+    }
+
     .sedan-section {
         border-radius: 15px 15px 0 0;
     }
 
     .luxury-section {
         border-radius: 0 0 15px 15px;
+    }
+
+    img {
+        margin-top: 7rem;
+    } 
+
+    button {
+        width: 40%;
+        margin-bottom: 7rem;
     }
 }
