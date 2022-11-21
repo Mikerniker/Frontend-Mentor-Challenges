@@ -1,4 +1,7 @@
 body {
+    /*background-image: url( './images/bg-pattern-top.svg');*/
+    /*background-repeat: no-repeat;*/
+    background-color: hsl(185, 75%, 39%); 
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 18px;
     margin: 0;
@@ -7,14 +10,37 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    min-height: 100vh;
+    
 }
+
+
+/* Main card container */
+.container {
+    width: 30vw;
+    text-align: center;
+} 
+
+/*  Cars Description Section */
+.card {    
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    flex-direction: column; 
+    margin: 1rem 2rem 1rem 2rem;
+    background-color: white;
+    border-radius: 15px;
+} 
 
 
 .profile-image {
     border-radius: 50%;
 }
 
+.bottom-container {
+    display: flex; 
+    align-items: center;
+    justify-content: space-evenly;
+}
 
 /* Footer */
 
