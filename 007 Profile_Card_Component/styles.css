@@ -13,10 +13,18 @@ body {
     
 }
 
+h1, h2 {
+    font-weight: 700;
+    margin: 0;
+}
+
+p {
+    font-weight: 400;
+}
 
 /* Main card container */
 .container {
-    width: 30vw;
+   
     text-align: center;
 } 
 
@@ -29,17 +37,45 @@ body {
     margin: 1rem 2rem 1rem 2rem;
     background-color: white;
     border-radius: 15px;
-} 
+   
+}
+
+.top-image {
+    border-radius: 15px 15px 0 0;
+   
+}
+
 
 
 .profile-image {
     border-radius: 50%;
+    border: 5px solid #FFFFFF;
+    position: relative;
+    bottom: 3rem;
+}
+/*
+.mid-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    flex-direction: column;  
+} */
+
+.profile-information {
+    display: flex;
 }
 
 .bottom-container {
     display: flex; 
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+    width: 100%; 
+    
+}
+
+
+.statistics {
+    font-size: small;
 }
 
 /* Footer */
