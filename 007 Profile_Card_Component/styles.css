@@ -4,6 +4,7 @@ body {
     background-color: hsl(185, 75%, 39%); 
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 18px;
+    color: hsl(0, 0%, 59%);
     margin: 0;
     padding: 0;
     display: flex;
@@ -13,7 +14,11 @@ body {
     
 }
 
+h1 {
+    font-size: larger;
+}
 h1, h2 {
+    color: hsl(229, 23%, 23%);
     font-weight: 700;
     margin: 0;
 }
@@ -21,6 +26,7 @@ h1, h2 {
 p {
     font-weight: 400;
 }
+
 
 /* Main card container */
 .container {
@@ -63,12 +69,14 @@ p {
 
 .profile-information {
     display: flex;
+    align-items: center;
+    justify-content: space-evenly;   
 }
 
 .bottom-container {
     display: flex; 
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     width: 100%; 
     
 }
