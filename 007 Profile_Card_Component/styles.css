@@ -25,14 +25,15 @@ h1, h2 {
 
 p {
     font-weight: 400;
+    margin: 0 0 1rem 0;
 }
 
 
 /* Main card container */
 .container {
-   
     text-align: center;
 } 
+
 
 /*  Cars Description Section */
 .card {    
@@ -64,23 +65,39 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;    
-    flex-direction: column;  
+    flex-direction: column;      
+    
 } */
+
+.mid-container {
+    width: 50%;
+}
+
+hr {
+    background-color: hsl(0, 0%, 59%);
+    width: 100%; 
+    
+}
 
 .profile-information {
     display: flex;
     align-items: center;
     justify-content: space-evenly;   
+   
 }
 
 .bottom-container {
     display: flex; 
-    align-items: center;
-    justify-content: space-evenly;
+    flex-direction: column;   
     width: 100%; 
-    
+    flex: 1;
 }
 
+.bottom-stats {
+    display: flex; 
+    justify-content: space-evenly;
+    
+}
 
 .statistics {
     font-size: small;
