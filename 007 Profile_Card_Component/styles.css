@@ -1,6 +1,6 @@
 body {
-    /*background-image: url( './images/bg-pattern-top.svg');*/
-    /*background-repeat: no-repeat;*/
+    background-image: url( './images/bg-pattern-top.svg');
+    background-repeat: no-repeat;
     background-color: hsl(185, 75%, 39%); 
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 18px;
