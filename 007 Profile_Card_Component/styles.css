@@ -11,7 +11,6 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    
 }
 
 h1 {
@@ -58,7 +57,8 @@ p {
     border-radius: 50%;
     border: 5px solid #FFFFFF;
     position: relative;
-    bottom: 3rem;
+    margin-bottom: -3.5rem;
+    bottom: 3.5rem;
 }
 /*
 .mid-container {
