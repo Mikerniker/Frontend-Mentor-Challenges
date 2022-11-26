@@ -49,7 +49,16 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### What I learned
 
-
+To remove the empty space left behind when using relative positioning, I added a negative margin-bottom, to the profile image
+```
+.profile-image {
+    border-radius: 50%;
+    border: 5px solid #FFFFFF;
+    position: relative;
+    margin-bottom: -3.5rem;
+    bottom: 3.5rem;
+}
+```
 
 ### Continued development
 
