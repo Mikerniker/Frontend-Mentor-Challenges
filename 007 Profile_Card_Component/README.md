@@ -66,8 +66,8 @@ To remove the empty space left behind when using relative positioning, I added a
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me...
-- [Example resource 2](https://www.example.com) - This is ...
+- [Background-position](https://developer.mozilla.org/en-US/docs/Web/CSS/background-position) - Learned about background-position.
+- [CSS Multiple Backgrounds](https://www.w3schools.com/css/css3_backgrounds.asp) - Learned about adding multiple images to background
 
 
 ## Author
