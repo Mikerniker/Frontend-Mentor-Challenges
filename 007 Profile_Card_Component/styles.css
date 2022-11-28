@@ -27,6 +27,11 @@ h1, h2 {
 .profile-age {
     margin-top: 35px;
 }
+
+.profile-country {
+    font-size: medium;
+    margin-bottom: 1rem;
+}
 p {
     font-weight: 400;
     margin: 0 0 1rem 0;
@@ -88,6 +93,7 @@ hr {
     display: flex;
     align-items: center;
     justify-content: space-evenly;   
+    margin-bottom: -8px;
    
 }
 
