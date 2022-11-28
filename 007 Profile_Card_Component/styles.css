@@ -1,6 +1,6 @@
 body {
     background-image: url( './images/bg-pattern-top.svg'), url( './images/bg-pattern-bottom.svg');
-    background-position: right 50rem bottom 1rem, left 50rem top 20rem;
+    background-position: right 50rem bottom 1rem, left 45rem top 20rem;
     background-repeat: no-repeat;
     background-color: hsl(185, 75%, 39%); 
     font-family: 'Kumbh Sans', sans-serif;
@@ -53,12 +53,14 @@ p {
     margin: 1rem 2rem 1rem 2rem;
     background-color: white;
     border-radius: 15px;
-   
+    width: 25rem;
 }
+
 
 .top-image {
     border-radius: 15px 15px 0 0;
-   
+    width: 400px;
+    
 }
 
 
@@ -94,7 +96,6 @@ hr {
     align-items: center;
     justify-content: space-evenly;   
     margin-bottom: -8px;
-   
 }
 
 .bottom-container {
@@ -114,6 +115,9 @@ hr {
     font-size: small;
 }
 
+.stat-nums {
+    font-size: large;
+}
 /* Footer */
 
 .attribution { 
