@@ -25,7 +25,7 @@ h1, h2 {
 }
 
 .profile-age {
-    margin-top: 35px;
+    margin: 35px 25px 16px 0;
 }
 
 .profile-country {
@@ -108,11 +108,11 @@ hr {
 .bottom-stats {
     display: flex; 
     justify-content: space-evenly;
-    
+    padding-bottom: 0.5rem;
 }
 
 .statistics {
-    font-size: small;
+    font-size: x-small;
 }
 
 .stat-nums {
