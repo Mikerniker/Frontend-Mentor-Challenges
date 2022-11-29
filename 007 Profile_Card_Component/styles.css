@@ -133,3 +133,11 @@ hr {
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+
+
+/* Media Queries */
+@media screen and (max-width: 992px) {
+    body {
+        background-position: right 17rem bottom 14rem, left 12rem top 15rem;
+}
+}
