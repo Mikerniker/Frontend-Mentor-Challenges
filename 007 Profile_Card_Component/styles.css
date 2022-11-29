@@ -15,23 +15,18 @@ body {
     min-height: 100vh;
 }
 
+/* Fonts */
+
 h1 {
     font-size: larger;
 }
+
 h1, h2 {
     color: hsl(229, 23%, 23%);
     font-weight: 700;
     margin: 1rem 0 0 0;
 }
 
-.profile-age {
-    margin: 35px 25px 16px 0;
-}
-
-.profile-country {
-    font-size: medium;
-    margin-bottom: 1rem;
-}
 p {
     font-weight: 400;
     margin: 0 0 1rem 0;
@@ -39,12 +34,14 @@ p {
 
 
 /* Main card container */
+
 .container {
     text-align: center;
 } 
 
 
-/*  Cars Description Section */
+/*  Profile Description Section */
+
 .card {    
     display: flex;
     align-items: center;
@@ -56,39 +53,23 @@ p {
     width: 25rem;
 }
 
-
 .top-image {
     border-radius: 15px 15px 0 0;
-    width: 400px;
-    
+    width: 400px;    
 }
 
-
-
-.profile-image {
-    border-radius: 50%;
-    border: 5px solid #FFFFFF;
-    position: relative;
-    margin-bottom: -3.5rem;
-    bottom: 3.5rem;
-}
-/*
-.mid-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;    
-    flex-direction: column;      
-    
-} */
+/* Middle Container */
 
 .mid-container {
     width: 50%;
 }
 
-hr {
-    background-color: hsl(0, 0%, 59%);
-    width: 100%; 
-    
+.profile-image {
+    border-radius: 50%;
+    border: 5px solid #FFFFFF;
+    bottom: 3.5rem;
+    position: relative;
+    margin-bottom: -3.5rem;
 }
 
 .profile-information {
@@ -98,11 +79,27 @@ hr {
     margin-bottom: -8px;
 }
 
+.profile-age {
+    margin: 35px 25px 16px 0;
+}
+
+.profile-country {
+    font-size: medium;
+    margin-bottom: 1rem;
+}
+
+/* Bottom Container */
+
 .bottom-container {
     display: flex; 
     flex-direction: column;   
     width: 100%; 
     flex: 1;
+}
+
+hr {
+    background-color: hsl(0, 0%, 59%);
+    width: 100%;     
 }
 
 .bottom-stats {
@@ -111,15 +108,17 @@ hr {
     padding-bottom: 0.5rem;
 }
 
+.stat-nums {
+    font-size: large;
+}
+
 .statistics {
     font-size: x-small;
     letter-spacing: .1rem;
     padding-top: 0.25rem;
 }
 
-.stat-nums {
-    font-size: large;
-}
+
 /* Footer */
 .footer-text {
     color: hsl(229, 23%, 23%);
