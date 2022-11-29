@@ -113,12 +113,17 @@ hr {
 
 .statistics {
     font-size: x-small;
+    letter-spacing: .1rem;
+    padding-top: 0.25rem;
 }
 
 .stat-nums {
     font-size: large;
 }
 /* Footer */
+.footer-text {
+    color: hsl(229, 23%, 23%);
+}
 
 .attribution { 
     font-size: 11px; 
