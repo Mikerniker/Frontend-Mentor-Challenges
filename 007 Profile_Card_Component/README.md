@@ -30,7 +30,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 ### Links
 
 - Solution URL: [Github URL](https://github.com/Mikerniker/Frontend-Mentor-Challenges/tree/main/007%20Profile_Card_Component)
-- Live Site URL: [Live Site](https://your-live-site-url.com)
+- Live Site URL: [Live Site](https://fementor-profile-card-solution.netlify.app/)
 
 ## My process
 
