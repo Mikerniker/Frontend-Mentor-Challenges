@@ -85,7 +85,7 @@ p {
 
 .profile-country {
     font-size: medium;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 /* Bottom Container */
@@ -98,8 +98,9 @@ p {
 }
 
 hr {
-    background-color: hsl(0, 0%, 59%);
-    width: 100%;     
+    border-top: 2px hsl(0, 2%, 72%);
+  
+    width: 99%;     
 }
 
 .bottom-stats {
