@@ -99,7 +99,6 @@ p {
 
 hr {
     border-top: 2px hsl(0, 2%, 72%);
-  
     width: 99%;     
 }
 
@@ -118,7 +117,6 @@ hr {
     letter-spacing: .1rem;
     padding-top: 0.25rem;
 }
-
 
 /* Footer */
 .footer-text {
