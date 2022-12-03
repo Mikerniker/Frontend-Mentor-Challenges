@@ -70,7 +70,7 @@ How to repeat an image within a div using background-repeat: repeat-x
 ### Useful resources
 
 - [Background-repeat: repeat-x](https://developer.mozilla.org/en-US/docs/Web/CSS/background-repeat) - This helped me
-- [Example resource 2](https://www.example.com) - This is an 
+- [Inline-flex vs Inline-block](https://www.geeksforgeeks.org/what-is-the-difference-between-inline-flex-and-inline-block-in-css/) - This is an 
 
 
 ## Author
