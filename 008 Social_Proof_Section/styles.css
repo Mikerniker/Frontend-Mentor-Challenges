@@ -27,12 +27,16 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  
 }
 
 .description-section{
-  width: 50%;
+  width: 100%;
 }
+
+.ratings-section {
+  background-color: hsl(300, 24%, 96%);
+}
+
 
 .star-ratings {
   background: url('./images/icon-star.svg');
@@ -41,11 +45,16 @@ body {
   background-repeat: repeat-x;
 }
 
+
 .customer-review-section {
   background-color: hsl(300, 43%, 22%);
   color: hsl(0, 0%, 100%);
   display: flex;
   
+}
+
+.customer-image {
+  border-radius: 50%;
 }
 
 
