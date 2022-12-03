@@ -51,6 +51,16 @@ Users should be able to:
 
 ### What I learned
 
+How to repeat an image within a div using background-repeat: repeat-x
+
+```
+.star-ratings {
+  background: url('./images/icon-star.svg');
+  width:85px;
+  height:20px;
+  background-repeat: repeat-x;
+}
+```
 
 
 ### Continued development
@@ -59,7 +69,7 @@ Users should be able to:
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me
+- [Background-repeat: repeat-x](https://developer.mozilla.org/en-US/docs/Web/CSS/background-repeat) - This helped me
 - [Example resource 2](https://www.example.com) - This is an 
 
 
