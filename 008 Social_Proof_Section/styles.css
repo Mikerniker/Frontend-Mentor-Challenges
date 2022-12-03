@@ -19,10 +19,26 @@ body {
 }
 
 
+.container {
+  max-width: 80%;
+}
+
 .top-container {
   display: flex;
   align-items: center;
   justify-content: center;
+  
+}
+
+.description-section{
+  width: 50%;
+}
+
+.star-ratings {
+  background: url('./images/icon-star.svg');
+  width:85px;
+  height:20px;
+  background-repeat: repeat-x;
 }
 
 .customer-review-section {
