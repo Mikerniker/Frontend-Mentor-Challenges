@@ -26,17 +26,25 @@ body {
 .top-container {
   display: flex;
   align-items: center;
-  justify-content: center;
+
 }
 
 .description-section{
   width: 100%;
 }
 
+
+
 .ratings-section {
   background-color: hsl(300, 24%, 96%);
 }
 
+
+.ratings-text {
+  display:flex;
+  align-items: center;
+
+}
 
 .star-ratings {
   background: url('./images/icon-star.svg');
