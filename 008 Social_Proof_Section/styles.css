@@ -26,6 +26,7 @@ body {
 .top-container {
   display: flex;
   align-items: center;
+ 
 
 }
 
@@ -58,7 +59,12 @@ body {
   background-color: hsl(300, 43%, 22%);
   color: hsl(0, 0%, 100%);
   display: flex;
+  border-radius: 10px;
   
+}
+
+.customers {
+
 }
 
 .customer-image {
