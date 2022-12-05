@@ -26,12 +26,10 @@ body {
 .top-container {
   display: flex;
   align-items: center;
- 
-
 }
 
 .description-section{
-  width: 100%;
+  width: 50%;
 }
 
 
