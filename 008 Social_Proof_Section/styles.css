@@ -1,12 +1,12 @@
 
 body {
   font-family: 'League Spartan', sans-serif;
-
+  
   background-image: url( './images/bg-pattern-top-desktop.svg'), url( './images/bg-pattern-bottom-desktop.svg');
   background-position: right 50rem bottom 20rem, left 20rem top;
   background-repeat: no-repeat; 
   background-color: hsl(0, 0%, 100%); 
-  font-family: 'Kumbh Sans', sans-serif;
+  
   font-size: 15px;
   color: hsl(300, 43%, 22%);
   margin: 0;
@@ -18,6 +18,11 @@ body {
   min-height: 100vh;
 }
 
+/*Fonts*/
+h1 {
+  font-weight: 700;
+  font-size: xx-large;
+}
 
 .container {
   max-width: 80%;
@@ -30,19 +35,23 @@ body {
 
 .description-section{
   width: 50%;
+  
 }
 
 
 
 .ratings-section {
   background-color: hsl(300, 24%, 96%);
+  width: 40%;
+  
 }
 
 
 .ratings-text {
   display:flex;
   align-items: center;
-
+  justify-content: center;
+  border-radius: 10px;
 }
 
 .star-ratings {
