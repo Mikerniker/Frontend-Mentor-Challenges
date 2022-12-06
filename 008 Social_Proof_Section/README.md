@@ -63,6 +63,26 @@ How to repeat an image within a div using background-repeat: repeat-x
 ```
 
 
+
+Had a hard time figuring out how to add a gap in the customer review section. Part of the difficulty was initially adding a dark background color in the .customer-review-section, which affected my view of the gap, as it colored over the whole section, but this was fixed after moving the background-color to the .customer class. Same with the border radius
+
+final code
+
+```
+.customer-review-section {
+  color: hsl(0, 0%, 100%);
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+}
+
+.customers {
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 10px;
+}
+```
+
+
 ### Continued development
 
 
