@@ -42,8 +42,7 @@ h1 {
 
 .ratings-section {
   background-color: hsl(300, 24%, 96%);
-  width: 40%;
-  
+  width: 40%; 
 }
 
 
@@ -61,12 +60,18 @@ h1 {
   background-repeat: repeat-x;
 }
 
+.customers {
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 10px;
+}
 
 .customer-review-section {
-  background-color: hsl(300, 43%, 22%);
+  
   color: hsl(0, 0%, 100%);
   display: flex;
-  border-radius: 10px;
+  justify-content: center;
+  
+  column-gap: 10px;
   
 }
 
