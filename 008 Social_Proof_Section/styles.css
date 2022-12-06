@@ -71,7 +71,15 @@ h1 {
 }
 
 .customer-verified {
-  color: hsl(303, 10%, 53%);
+  color: hsl(333, 80%, 67%);
+}
+
+.customer-names {
+  display: flex;
+}
+
+.customer-review {
+  color: hsl(0, 0%, 100%);
 }
 
 .customer-image {
