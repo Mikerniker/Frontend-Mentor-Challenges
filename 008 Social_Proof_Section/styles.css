@@ -60,19 +60,16 @@ h1 {
   background-repeat: repeat-x;
 }
 
-.customers {
-  background-color: hsl(300, 43%, 22%);
-  border-radius: 10px;
-}
-
 .customer-review-section {
-  
   color: hsl(0, 0%, 100%);
   display: flex;
   justify-content: center;
-  
   column-gap: 10px;
-  
+}
+
+.customers {
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 10px;
 }
 
 .customer-verified {
