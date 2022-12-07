@@ -55,8 +55,8 @@ h1 {
   border-radius: 10px;
   padding: 0.5rem 2.5rem;
   display:flex;
-
   align-items: center;
+  width: 20rem;
 }
 
 .star-ratings {
@@ -76,11 +76,13 @@ h1 {
   display: flex;
   justify-content: center;
   column-gap: 10px;
+  
 }
 
 .customers {
   background-color: hsl(300, 43%, 22%);
   border-radius: 10px;
+  padding: 1rem;
 }
 
 .customer-verified {
