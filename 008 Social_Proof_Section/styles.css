@@ -74,7 +74,9 @@ h1 {
 .customer-review-section {
   color: hsl(0, 0%, 100%);
   display: flex;
+
   justify-content: center;
+
   column-gap: 10px;
   
 }
@@ -87,18 +89,22 @@ h1 {
 
 .customer-verified {
   color: hsl(333, 80%, 67%);
+  font-size: medium;
 }
 
 .customer-names {
   display: flex;
+  align-items: center;
 }
 
 .customer-review {
   color: hsl(0, 0%, 100%);
+  line-height: 1.5;
 }
 
 .customer-image {
   border-radius: 50%;
+  height: 3rem;
 }
 
 
