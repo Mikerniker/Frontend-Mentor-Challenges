@@ -67,6 +67,10 @@ h1 {
   margin-right: 2rem;
 }
 
+.star-reviews{
+  font-weight: 700;
+}
+
 .customer-review-section {
   color: hsl(0, 0%, 100%);
   display: flex;
