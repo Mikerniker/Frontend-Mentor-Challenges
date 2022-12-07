@@ -41,13 +41,10 @@ h1 {
 
 
 .ratings-section {
-
   width: 40%; 
-  
   display:flex;
   align-items: center;
-  justify-content: space-evenly;
-  
+
   flex-direction: column;
   row-gap: 20px;
 }
@@ -56,9 +53,9 @@ h1 {
 .ratings-text {
   background-color: hsl(300, 24%, 96%);
   border-radius: 10px;
-  padding: 0.5rem 2rem;
+  padding: 0.5rem 2.5rem;
   display:flex;
-  
+
   align-items: center;
 }
 
@@ -67,6 +64,7 @@ h1 {
   width:85px;
   height:20px;
   background-repeat: repeat-x;
+  margin-right: 2rem;
 }
 
 .customer-review-section {
