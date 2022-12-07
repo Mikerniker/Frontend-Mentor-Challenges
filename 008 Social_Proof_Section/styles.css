@@ -41,16 +41,25 @@ h1 {
 
 
 .ratings-section {
-  background-color: hsl(300, 24%, 96%);
+
   width: 40%; 
+  
+  display:flex;
+  align-items: center;
+  justify-content: space-evenly;
+  
+  flex-direction: column;
+  row-gap: 20px;
 }
 
 
 .ratings-text {
-  display:flex;
-  align-items: center;
-  justify-content: center;
+  background-color: hsl(300, 24%, 96%);
   border-radius: 10px;
+  padding: 0.5rem 2rem;
+  display:flex;
+  
+  align-items: center;
 }
 
 .star-ratings {
