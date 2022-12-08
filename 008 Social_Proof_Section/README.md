@@ -106,6 +106,7 @@ final code:
 - [Background-repeat: repeat-x](https://developer.mozilla.org/en-US/docs/Web/CSS/background-repeat) - This helped me
 - [Inline-flex vs Inline-block](https://www.geeksforgeeks.org/what-is-the-difference-between-inline-flex-and-inline-block-in-css/) - This is an 
 
+- [Align-self](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container) - Helpful reference on align self, in the section "Changing the main axis" 
 
 ## Author
 
