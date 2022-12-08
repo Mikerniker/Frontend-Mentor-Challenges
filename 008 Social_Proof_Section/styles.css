@@ -45,10 +45,11 @@ h1 {
 .ratings-section {
   width: 40%; 
   display:flex;
-  align-items: center;
+  align-items: flex-start;
 
   flex-direction: column;
   row-gap: 20px;
+
 }
 
 
@@ -59,6 +60,18 @@ h1 {
   display:flex;
   align-items: center;
   width: 20rem;
+}
+
+.first-rating {
+  align-self: end;
+}
+
+.second-rating {
+  align-self: center;
+}
+
+.third-rating {
+  align-self: start;
 }
 
 .star-ratings {
