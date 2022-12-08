@@ -63,7 +63,7 @@ h1 {
 }
 
 .first-rating {
-  align-self: end;
+  align-self: start;
 }
 
 .second-rating {
@@ -71,7 +71,7 @@ h1 {
 }
 
 .third-rating {
-  align-self: start;
+  align-self: end;
 }
 
 .star-ratings {
