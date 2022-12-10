@@ -104,9 +104,16 @@ h2 {
   padding: 1rem;
 }
 
+.customer-data, .customer-verified {
+  font-size: medium;
+  margin-left: 1rem;
+}
+
 .customer-verified {
   color: hsl(333, 80%, 67%);
-  font-size: medium;
+  
+  margin-top: 0.25rem;
+ 
 }
 
 .customer-names {
@@ -122,7 +129,7 @@ h2 {
 
 .customer-image {
   border-radius: 50%;
-  height: 3rem;
+  height: 2.5rem;
 }
 
 
