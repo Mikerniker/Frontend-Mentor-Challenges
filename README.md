@@ -20,6 +20,6 @@ Concepts used: Semantic HTML, CSS Flexbox
 5. Challenge 5: Stats Preview Card
   - [Live Site](https://fementor-stats-preview-card-component.netlify.app/)
   - [Github Code](https://github.com/Mikerniker/Frontend-Mentor-Challenges/tree/main/005%20Stats%20Preview%20Card)
-6. Challenge 6: Stats Preview Card
-  - [Live Site](https://fementor-stats-preview-card-component.netlify.app/)
-  - [Github Code](https://github.com/Mikerniker/Frontend-Mentor-Challenges/tree/main/005%20Stats%20Preview%20Card)
+6. Challenge 6: Three Column Preview Card
+  - [Live Site](https://fementor3column-preview-card.netlify.app/)
+  - [Github Code](https://github.com/Mikerniker/Frontend-Mentor-Challenges/tree/main/006%20Three_Column_Preview_Card)
