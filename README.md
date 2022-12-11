@@ -23,3 +23,4 @@ Concepts used: Semantic HTML, CSS Flexbox
 6. Challenge 6: Three Column Preview Card
   - [Live Site](https://fementor3column-preview-card.netlify.app/)
   - [Github Code](https://github.com/Mikerniker/Frontend-Mentor-Challenges/tree/main/006%20Three_Column_Preview_Card)
+7. Challenge 7: Profile Card Component
