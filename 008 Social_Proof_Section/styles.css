@@ -78,7 +78,7 @@ h1 {
 
 .star-ratings {
   background: url('./images/icon-star.svg');
-  width:85px;
+  width: 85px;
   height:20px;
   background-repeat: repeat-x;
   margin-right: 2rem;
@@ -96,9 +96,6 @@ h1 {
   
 }
 
-.irene {
-    align-self: center;
-  }
 
 .customers {
   background-color: hsl(300, 43%, 22%);
