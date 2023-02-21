@@ -81,7 +81,7 @@ final code
   border-radius: 10px;
 }
 ```
-Leared and reviewed the "align-self" property in css to move the ratings section around
+Learned and reviewed the "align-self" property in css to move the ratings section around
 final code:
 ```
 .first-rating {
