@@ -45,13 +45,10 @@ h1 {
 }
 
 .ratings-section {
-  width: 40%; 
   display:flex;
-  align-items: flex-start;
-
   flex-direction: column;
   row-gap: 20px;
-
+  width: 100%;
 }
 
 
