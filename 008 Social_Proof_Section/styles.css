@@ -24,20 +24,17 @@ h1 {
   font-size: xx-large;
 }
 
-
-
 .container {
   max-width: 80%;
 }
 
 .top-container {
   display: flex;
-  align-items: center;
+  align-items: center; 
 }
 
 .description-section{
-  width: 50%;
-  
+  width: 100%;
 }
 
 .description-paragraph {
@@ -48,7 +45,7 @@ h1 {
   display:flex;
   flex-direction: column;
   row-gap: 20px;
-  width: 100%;
+  width: 100%; 
 }
 
 
@@ -102,13 +99,11 @@ h1 {
 
 .customer-data, .customer-verified {
   font-size: medium;
-  margin-left: 1rem;
+  margin-left: 2rem;
 }
 
 .customer-verified {
   color: hsl(333, 80%, 67%);
-  
- 
 }
 
 .customer-names {
