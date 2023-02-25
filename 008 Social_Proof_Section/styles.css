@@ -88,7 +88,7 @@ h1 {
   display: flex;
   flex-direction: row;
   column-gap: 1.5rem;
-  
+  margin-bottom: 2rem;
 }
 
 
@@ -109,9 +109,15 @@ h1 {
 
 .customer-names {
   display: flex;
-  align-items: center;
-  
-  
+  align-items: center; 
+}
+
+.irene {
+  margin: 1rem 0rem -1rem 0rem;
+}
+
+.anne {
+  margin: 2rem 0rem -2rem 0rem;
 }
 
 .customer-review {
