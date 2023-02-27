@@ -97,6 +97,16 @@ final code:
 }
 ```
 
+- Was stuck for a while on how to change the height of the customer review section. I was finally able to change it by adjusting the margins:
+```
+.irene {
+  margin: 1rem 0rem -1rem 0rem;
+}
+
+.anne {
+  margin: 2rem 0rem -2rem 0rem;
+}
+```
 ### Continued development
 
 
