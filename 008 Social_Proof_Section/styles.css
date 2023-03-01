@@ -161,6 +161,14 @@ h1 {
   }
   .top-container {
     flex-direction: column; 
-    
+  }
+
+  
+  .first-rating{
+    align-self: center;
+  }
+
+  .third-rating {
+    align-self: center;
   }
 }
