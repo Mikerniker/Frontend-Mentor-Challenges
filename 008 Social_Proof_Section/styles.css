@@ -156,6 +156,9 @@ h1 {
     background-position: right 5rem bottom 5rem, left 5rem top;
 }
 
+  .description-section {
+    text-align: center;
+  }
   .top-container {
     flex-direction: column; 
     
