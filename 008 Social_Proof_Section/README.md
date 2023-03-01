@@ -107,6 +107,9 @@ final code:
   margin: 2rem 0rem -2rem 0rem;
 }
 ```
+
+- Mental Note: Sometimes I forget to simply use ```text-align: center``` to align text as I sometimes confuse it with justify-content or align-items. 
+
 ### Continued development
 
 
