@@ -180,4 +180,16 @@ h1 {
     flex-direction: column;
   }
 
+  .customers {
+    margin-top: 2.5rem;
+  }
+
+  .irene {
+    margin-top: 1rem;
+  }
+  
+  .anne {
+    margin-top: 2rem;
+  }
+
 }
