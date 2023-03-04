@@ -23,25 +23,31 @@ h1 {
   font-size: 3rem;
 }
 
+/* Main card container */
 .container {
   max-width: 70%;
 }
+
+/* Profile Description Section */
 
 .top-container {
   display: flex;
   align-items: center; 
 }
 
+/* Description Section */
+
 .description-section{
   width: 100%;
   padding-bottom: 2rem;
-
 }
 
 .description-paragraph {
   line-height: 1.5;
   font-size: 1.2rem;
 }
+
+/* Ratings Section */
 
 .ratings-section {
   display:flex;
