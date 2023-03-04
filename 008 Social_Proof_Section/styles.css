@@ -106,7 +106,6 @@ h1 {
   padding: 1rem 2rem 1rem 2rem;
 }
 
-
 .customer-names {
   display: flex;
   align-items: center; 
@@ -120,6 +119,11 @@ h1 {
   margin: 2rem 0rem -2rem 0rem;
 }
 
+.customer-image {
+  border-radius: 50%;
+  height: 2.5rem;
+}
+
 .customer-data, .customer-verified {
   font-size: medium;
   margin-left: 1rem;
@@ -129,16 +133,10 @@ h1 {
   color: hsl(333, 80%, 67%);
 }
 
-
 .customer-review {
   color: hsl(0, 0%, 100%);
   line-height: 1.5;
   font-size: 0.88rem;
-}
-
-.customer-image {
-  border-radius: 50%;
-  height: 2.5rem;
 }
 
 
@@ -156,10 +154,11 @@ h1 {
 
 
   /* Media Queries */
+
 @media screen and (max-width: 992px) {
   body {
     background-position: right 5rem bottom 5rem, left 5rem top;
-}
+  }
 
   .description-section {
     text-align: center;
@@ -171,7 +170,6 @@ h1 {
   .ratings-text {
     width: 16.5rem;
   }
-
   
   .first-rating{
     align-self: center;
